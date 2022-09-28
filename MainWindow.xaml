@@ -1,0 +1,17 @@
+﻿<Window x:Class="Adivina_Numero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adivina_Numero"
+        mc:Ignorable="d"
+        Title="AdivinaNumero" Height="450" Width="800" Icon="Images/basketball.ico">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="182,200,0,0" TextWrapping="Wrap" Text="¿Que numero he pensado?" VerticalAlignment="Top" Height="22" Width="147"/>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="23" Margin="358,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ComprobarButtom" Content="Comprobar" HorizontalAlignment="Left" Margin="221,292,0,0" VerticalAlignment="Top" Width="75" Click="ComprobarButtom_Click"/>
+        <Button x:Name="ReiniciarButtom" Content="Reiniciar" HorizontalAlignment="Left" Margin="402,292,0,0" VerticalAlignment="Top" Width="76" Click="ReiniciarButtom_Click"/>
+        <TextBlock x:Name="AcertadoTextBlock" HorizontalAlignment="Left" Margin="287,248,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="123"/>
+
+    </Grid>
+</Window>
